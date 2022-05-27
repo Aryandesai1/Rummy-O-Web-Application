@@ -1,0 +1,1 @@
+A test case is a set of conditions or variables, using a tester to determine whether a system satifies requirements or works correctly. We used the tester for things like names, to verify if they are valid.

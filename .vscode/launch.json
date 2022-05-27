@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug (Server Side)",
+            "program": "${workspaceFolder}/Code/server.js",
+            "request": "launch",
+            
+            "type": "node"
+        },
+              
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Debug in Chrome (ClientSide)",
+            "url": "http://localhost:5000",
+            "webRoot": "${workspaceFolder}/Code/public"
+        }
+    ]
+}
